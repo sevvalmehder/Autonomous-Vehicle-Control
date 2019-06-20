@@ -1,0 +1,3 @@
+### runCARLA  
+
+This is a carla client for apply the end to end learning model. Run the main after running Carla server and wait for the client connection. Then the car in the simulation read the RGB data from RGB camera and send this sensor data to the model as an input. Then model predict a class for this RGB image. Then client will aplly the corresponding steering angle according to the predicted class.  
